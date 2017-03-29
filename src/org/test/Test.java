@@ -18,8 +18,8 @@ public class Test {
 		Session session=(Session) HibernateSessionFactory.getSession();
 		Transaction ts=session.beginTransaction();
 		Kcb kc=new Kcb();                           		// 创建POJO类对象
-		kc.setKch("100");                           	 	// 设置课程号
-		kc.setKcm("JavaEE");                          	// 设置课程名
+		kc.setKch("110");                           	 	// 设置课程号
+		kc.setKcm("Java");                          	// 设置课程名
 		kc.setKxxq(new Short(new Integer(5).shortValue()));         	// 设置开学学期
 		kc.setXf(new Integer(4));           	// 设置学分
 		kc.setXs(new Integer(59));          

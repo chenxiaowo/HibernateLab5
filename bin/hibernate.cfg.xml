@@ -10,9 +10,7 @@
 		<property name="dialect">
 			org.hibernate.dialect.MySQLDialect
 		</property>
-		<property name="connection.url">
-			jdbc:mysql://123.206.220.79:3306/XSCJ
-		</property>
+		<property name="connection.url">jdbc:mysql://123.206.220.79:3306/XSCJ?autoReconnect=true&amp;useSSL=false</property>
 		<property name="connection.username">common_user</property>
 		<property name="connection.password">commonuser</property>
 		<property name="connection.driver_class">
